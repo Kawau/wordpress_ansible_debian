@@ -1,0 +1,12 @@
+# This playbook will take all the necessary steps to create working Wordpress environment on your local Debian machine. 
+
+# ··············································································
+# ### Defining host and config variables and completing some pre-tasks.
+# ··············································································
+- hosts: wordpress
+
+  roles:
+    - server
+    - php
+    - mysql
+    - wordpress

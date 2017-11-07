@@ -1,0 +1,4 @@
+[wordpress]
+localhost	ansible_connection=local
+[wordpress_server]
+localhost	ansible_connection=local
